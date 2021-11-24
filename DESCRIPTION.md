@@ -1,0 +1,1 @@
+Home Assistant is an Open source home automation that puts local control and privacy first.

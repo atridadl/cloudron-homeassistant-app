@@ -1,0 +1,35 @@
+{
+  "id": "org.homeassistant.cloudronapp",
+  "title": "Home Assistant",
+  "author": "Home Assistant Developers",
+  "description": "file://DESCRIPTION.md",
+  "tagline": "Open source home automation that puts local control and privacy first.",
+  "version": "0.1.0",
+  "healthCheckPath": "/auth/authorize",
+  "httpPort": 8123,
+  "manifestVersion": 2,
+  "website": "https://home-assistant.io",
+  "contactEmail": "atri.lahiji@lahijiapps.dev",
+  "icon": "logo.png",
+  "memoryLimit": 262144000,
+  "tcpPorts": {
+    "HASS_Bridge": {
+      "title": "HASS Bridge",
+      "description": "Port for HASS Bridge",
+      "defaultValue": 21063,
+      "containerPort": 21063
+    }
+  },
+  "addons": {
+    "localstorage": {}
+  },
+  "tags": [ "python", "iot" ],
+  "changelog": "file://CHANGELOG",
+  "postInstallMessage": "file://POSTINSTALL.md",
+  "mediaLinks": [
+  ],
+  "minBoxVersion": "5.3.0",
+  "forumUrl": "https://forum.cloudron.io/category/102/homeassistant",
+  "documentationUrl": "https://docs.cloudron.io/apps/homeassistant/"
+
+}
