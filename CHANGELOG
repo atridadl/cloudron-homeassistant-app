@@ -1,2 +1,6 @@
 [0.1.0]
 * Initial version
+
+[0.1.0]
+* Updated to HASS 2022.3.7
+* Fixed build script
