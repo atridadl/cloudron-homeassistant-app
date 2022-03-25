@@ -5,11 +5,17 @@ Repo: https://github.com/homeassistant/core
 
 ## Building
 
-The app package can be built using the [Cloudron command line tooling](https://cloudron.io/references/cli.html). You will need docker installed to build.
+The app package can be built using the [Cloudron command line tooling](https://cloudron.io/references/cli.html) by pulling down the repo and running the following commands:
 
 ```
-cd homeassistant-app
-
 cloudron build
 cloudron install
 ```
+
+* You will need docker installed to build.
+
+Alternatively, after pulling down this repository, run the following command from inside the root of the project:
+```
+cloudron install --image atridadl/cloudron-homeassistant-app
+```
+This will install using my docker container so you wont have to build.
