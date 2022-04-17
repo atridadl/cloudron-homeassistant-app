@@ -10,7 +10,7 @@ RUN add-apt-repository ppa:deadsnakes/ppa && \
     rm -rf /var/cache/apt /var/lib/apt/lists
 
 # copy start script
-ADD start.sh build.sh fix_default_conf.sh /app/code/
+ADD start.sh build.sh /app/code/
 ADD configuration.yaml /app/data/
 RUN cd /app/data && touch automations.yaml && touch scripts.yaml && touch scenes.yaml
 

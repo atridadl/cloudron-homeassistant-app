@@ -4,7 +4,7 @@
   "author": "Home Assistant Developers",
   "description": "file://DESCRIPTION.md",
   "tagline": "Open source home automation that puts local control and privacy first.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "healthCheckPath": "/auth/authorize",
   "httpPort": 8123,
   "manifestVersion": 2,
